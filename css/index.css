@@ -1,0 +1,47 @@
+h1{
+  font-family: "Bradley Hand", sans-serif;
+  font-variant: small-caps;
+}
+h2{
+  height: 10px;
+  font-variant: small-caps;
+  font-family: Chalkduster, serif;
+}
+h4{
+  height: 24px;
+  font-variant: small-caps;
+  font-family: "Arial Hebrew Scholar",sans-serif;
+}
+nav{
+  font-variant: small-caps;
+  float: top;
+}
+head,body{
+  margin: 0px;
+  padding: 0px;
+  background-color: #cccccc;
+  text-align: -webkit-center;
+}
+li{
+  color: brown;
+  text-align: center;
+}
+table{
+   color: brown;
+   text-align: center;
+   display: inline-grid;
+ }
+p{
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  color: brown;
+  display: inline-grid;
+}
+th,caption{
+  color: #222222;
+}
+progress{
+  width:200px;
+  display: inline-block;
+}
