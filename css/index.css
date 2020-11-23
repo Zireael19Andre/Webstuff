@@ -22,26 +22,46 @@ head,body{
   background-color: #cccccc;
   text-align: -webkit-center;
 }
-li{
+ul{
   color: brown;
+  display: block;
   text-align: center;
 }
 table{
    color: brown;
    text-align: center;
-   display: inline-grid;
+   display: inline-block;
  }
 p{
   margin: 0px;
   padding: 0px;
-  text-align: center;
+  text-align: left;
   color: brown;
-  display: inline-grid;
+  display: block;
 }
 th,caption{
   color: #222222;
 }
 progress{
   width:200px;
+  display: block;
+  float: right;
+  margin-right: 10%;
+}
+div{
+  width: 50%;
   display: inline-block;
+  float: left;
+}
+footer{
+  padding: 20px;
+  clear: both;
+}
+audio{
+  width: 50%;
+  display: inline-block;
+  position: center;
+}
+img{
+  width: 25%;
 }
