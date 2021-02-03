@@ -1,0 +1,253 @@
+/*Works Fine on laptop or PC screen*/
+html, body {
+  height: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../img/web_bg_color.png") no-repeat 0% 20%/ cover;
+}
+
+header{
+  display: block;
+  height: 27.5%;
+}
+
+body{
+  margin: 10px;
+  padding: 10px;
+  height: 100%;
+}
+
+h1{
+  padding-top: 5%;
+  width: 100%;
+  text-align: center;
+  font-size: 48px;
+  color: #333333;
+  font-family: "Apple SD Gothic Neo";
+  text-transform:capitalize;
+}
+
+
+nav ul {
+  list-style: none;
+  background-color: rgba(255,255,255,0);
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+nav li {
+  width: 22%;
+  border-right: 3px solid yellow;
+  height: 50px;
+  line-height: 50px;
+  font-size: 140%;
+  display: inline-block;
+}
+nav li:last-child{
+  border-right: none;
+
+}
+nav li li{
+  border-right: none;
+  width: 97%;
+  text-align: center;
+}
+nav a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  padding-left: 15px;
+  transition: .5s background-color;
+}
+nav a:hover {
+  background-color: rgba(255,255,255,0.3);
+}
+nav a.active {
+  background-color: rgba(255,255,255,0.3);
+  color: #111111;
+  cursor: default;
+}
+/* Sub Menus */
+nav li li {
+  font-size: .8em;
+}
+nav > ul > li {
+  text-align: center;
+}
+nav > ul > li > a {
+  padding-left: 0;
+}
+/* Sub Menus */
+nav li ul {
+  position: absolute;
+  display: none;
+  width: inherit;
+}
+nav li:hover ul {
+  display: block;
+}
+nav li ul li {
+  display: block;
+  background-color: rgba(255,255,255,0.05);
+}
+
+
+.right{
+  display: inline-block;
+  width:76%;
+  float: right;
+}
+div{
+  margin-left: 2%;
+  display: inline-block;
+  color: #222222;
+}
+div p{
+  display: inline-block;
+  font-weight: bold;
+}
+div h2{
+  display: inline-block;
+
+}
+div a{
+  text-decoration: none;
+  color: #000000;
+}
+
+
+h2{
+  margin-left: 2%;
+  text-align: left;
+  font-size: 28px;
+  color: #222222;
+  font-family: "Apple SD Gothic Neo";
+  font-variant-caps: normal;
+}
+
+p{
+  font-size: 20px;
+  font-family: "Apple SD Gothic Neo";
+
+}
+
+.left{
+  display: inline-block;
+  width: 18%;
+  padding: 1%;
+  margin-left: 3.8%;
+}
+
+.left p{
+  text-align: center;
+  font-size: 18px;
+  margin: -5px;
+  color: #333333;
+}
+.left img{
+  margin-left: 16%;
+}
+aside img{
+  width: 75%;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 2%;
+  height: 30%;
+  line-height: 30%;
+  border-style: solid;
+  border-width: 3px;
+  border-color: rgba(25,43,38,0.2);
+}
+
+table{
+  width: 80%;
+  position: relative;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+}
+
+tr>th{
+  color: #cccccc;
+  width: 30%;
+  height: 8vh;
+  text-align: center;
+  font-size: 24px;
+  vertical-align: middle;
+  background: linear-gradient(#e66465 0%, #9198e5 100%);
+  background: -moz-linear-gradient(top, #e66465 0%, #9198e5 100%);
+  background: -webkit-linear-gradient(#e66465 0%, #9198e5 100%);
+  background: -o-linear-gradient(#e66465 0%, #9198e5 100%);
+  border-top: 2px;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  opacity: 0.8;
+  transition: transform 0.5s;
+}
+
+tr>th:hover{
+  color: #222222;
+  transform: scale(1.01);
+  -webkit-transform: scale(1.01);
+  -moz-transform: scale(1.01);
+  -o-transform: scale(1.01);
+}
+
+tr>th:first-child {
+  width: 5%;
+  border-left: 2px;
+  border-radius: 24px 0 0 0;
+  -webkit-border-radius: 24px 0 0 0;
+  -moz-border-radius: 24px 0 0 0;
+}
+th:first-child{
+  text-align: center;
+}
+
+tr>th:last-child {
+  width: 40%;
+  border-right: 2px;
+  border-radius: 0 24px 0 0;
+  -webkit-border-radius: 0 24px 0 0;
+  -moz-border-radius: 0 24px 0 0;
+}
+
+td{
+  padding: 2px;
+  font-weight: bold;
+  color: rgba(0,0,0,0.4);
+  opacity: 0.6;
+  background-color: #e6e6fa;
+  height: 5vh;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  text-shadow: 1px 1px 1px #556b2f;
+  transition: transform 0.5s;
+}
+td:hover{
+  color: rgba(0,0,0,1);
+  opacity: 1;
+  transform: scale(1.02);
+  -webkit-transform: scale(1.02);
+  -moz-transform: scale(1.02);
+  -o-transform: scale(1.02);
+}
+
+td:first-child{
+  text-align: center;
+}
+
+tr:last-child>td:first-child{
+  border-radius: 0 0 0 16px;
+  -webkit-border-radius: 0 0 0 16px;
+  -moz-border-radius: 0 0 0 16px;
+
+}
+tr:last-child>td:last-child{
+  border-radius: 0 0 16px 0;
+  -webkit-border-radius:0 0 16px 0;
+  -moz-border-radius:0 0 16px 0;
+
+}
