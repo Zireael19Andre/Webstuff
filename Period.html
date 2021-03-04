@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <title>Time Tunnel</title>
   <link rel="stylesheet" href="css/index.css">
+  <script src = "./js/index.js"></script>
 </head>
 <body>
 <header>
@@ -37,7 +38,7 @@
 </header>
 <main>
   <aside class = "left">
-    <img src="./image/Lab.jpg" alt="Photo">
+    <img id = "change" src="./image/Lab.jpg" alt="Photo">
     <p> 戦　義豪</p>
     <p> Zhan　Yihao</p>
     <p>せん　ぎごう</p>
@@ -48,17 +49,17 @@
     <div>
       <img src="https://img.icons8.com/ios/32/000000/curriculum.png"/>
       <p>
-        HighSchool:&nbsp;&nbsp;&nbsp;&nbsp;<a href="Period_High.html">No.4 HighSchool, Jiaxing-City, Zhejiang-Province, China.</a>
+        HighSchool:&nbsp;&nbsp;&nbsp;&nbsp;<a href="Period_High.html" onmouseover = "upDate1()" onmouseout = "unDo()">No.4 HighSchool, Jiaxing-City, Zhejiang-Province, China.</a>
       </p>
       <br>
-      <img src="https://img.icons8.com/ios/32/000000/student-male.png"/>
+      <img id = "University" src="https://img.icons8.com/ios/32/000000/student-male.png"/>
       <p>
-        University:&nbsp;&nbsp;&nbsp;&nbsp;<a href="Period_Univ.html">Hebei University of Technology（HEBUT）, Tianjin-City, China.</a>
+        University:&nbsp;&nbsp;&nbsp;&nbsp;<a href="Period_Univ.html" onmouseover = "upDate2()" onmouseout = "unDo()">Hebei University of Technology（HEBUT）, Tianjin-City, China.</a>
       </p>
       <br>
-      <img src="https://img.icons8.com/ios/32/000000/imac-settings.png"/>
+      <img id = "Graduate" src="https://img.icons8.com/ios/32/000000/imac-settings.png"/>
       <p>
-        Graduate Student:&nbsp;&nbsp;&nbsp;&nbsp;<a href="Period_Japan.html">Chiba University Graduate School of Science and Engineering, Chiba, Japan.</a>
+        Graduate Student:&nbsp;&nbsp;&nbsp;&nbsp;<a href="Period_Japan.html" onmouseover = "upDate3()" onmouseout = "unDo()">Chiba University Graduate School of Science and Engineering, Chiba, Japan.</a>
       </p>
     </div>
   </section>
